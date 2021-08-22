@@ -1,0 +1,100 @@
+/* --------------------------------
+  Common css or Utilize  Start                          
+----------------------------------*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+input{
+    background: inherit;
+    padding: 15px 20px;
+    border-radius: 7px;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+/* ----------------------------
+  Common css or Utilize End                           
+-------------------------------*/
+
+/* ------------------------------------------------------
+                    Main Part Start                          
+--------------------------------------------------------*/
+
+
+/* -------------------------------
+      Mac Section Start                          
+--------------------------------*/
+
+/*---- Mac Images Part ----*/
+
+#i_mac img{
+    width: 100%;
+}
+
+
+/*---- Mac Input Part ----*/
+
+
+.delivery_cost {
+    width: 258px;
+}
+
+/*---- Mac Price Part ----*/
+
+.border_coler .total_head{
+    border-bottom: 2px solid black;
+}
+  
+
+.total_head {
+    border-bottom: 2px solid rgb(228 230 232);
+    margin-top: 10px;
+}
+
+.total_head h4 {
+    width: 360px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.total_head p{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.container-lg {
+	border-bottom: 2px solid rgb(157, 157, 157);
+}
+
+.button_click {
+	padding: 10px 20px;
+	margin-left: 20px;
+	color: #fff;
+	background: rgb(255, 0, 212);
+	border: 1px solid;
+	border-radius: 10px;
+}
+
+/*---- Footer Part ----*/
+
+
+#i_mac .paragrap {
+	font-size: 25px;
+	font-weight: 600;
+	margin-top: 50px;
+}
+
+footer h1 {
+	font-size: 50px;
+	padding: 20px;
+	font-weight: 500;
+}
+/* ------------------------------------------------------
+                    Main Part End                          
+--------------------------------------------------------*/

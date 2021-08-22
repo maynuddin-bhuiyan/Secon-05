@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--------------------------------------
+            Website  Title
+-------------------------------------->
+    <title>MAC-24-INCH</title>
+    
+<!--------------------------------------
+            Favicon  link
+-------------------------------------->
+    <link rel="shortcut icon" href="images/icon/about.png" type="image/x-icon">
+
+<!--------------------------------------
+            Bootstrap Css link
+-------------------------------------->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+<!--------------------------------------
+            External Css link
+-------------------------------------->    
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<!----------------------------------------------------------
+            Main Section Start
+------------------------------------------------------------>
+<main>
+<!--------------------------------------
+            Mac Section Start
+-------------------------------------->
+        <section id="i_mac" class="mt-5">
+            <div class="container-lg d-flex p-0">
+                <!-- Mac Images Part-->
+                <div class="col-lg-6">
+                    <img src="images/mac/mac.png" alt="">
+                </div>
+                <!-- 24-inch Mac Details Part-->
+                <div class="col-lg-6 ps-5">
+                    <h1> 24-inch Blue iMac with 4.5K Retina display -   Apple </h1>
+                    <p class="mb-5">Apple M1 chip with 8-core CPU with 4     performance cores and 4 efficiency cores, 7-core    GPU, and 16-core Neural Engine 8GB unified memory  256GB SSD storage Two Thunderbolt / USB 4 ports  Magic Mouse Magic Keyboard - US English</p>
+                    <h3>Memory</h3>
+                    <input onclick="getEquipment ('memory',0)" type="button" value="8GB unified memory">
+                    <input id="new_memory_price" type="button" value="16GB unified memory">
+                    <h3>Storage</h3>
+                    <input onclick="getEquipment ('storage',0)" type="button" value="256GB SSD Storage">
+                    <input id="old_storage_price" type="button" value="512GB SSD Storage">
+                    <input id="new_storage_price" type="button" value="1TB SSD Storage">
+                    <h3>Choose your delivery option</h3>
+                    <input onclick="getEquipment ('delivery',0)" class="delivery_cost" type="button" value="Firday,Aug 25 FREE Prime Delivery">
+                    <input id="new_delivery_price" class="delivery_cost" type="button" value="Firday, Aug 21 Delivery Charge $20">
+                 <div class="total w-75 mt-5">
+                    <div class="total_head d-lg-flex">
+                        <h4>Bast Price </h4>
+                        <p>$<span id="mac_paice">1299</span></p>
+                    </div>
+                    <div class="total_head d-lg-flex">
+                        <h4>Extra Memory Cost Cost </h4>
+                        <p>$<span id="memory_price">0</span></p>
+                    </div>
+                    <div class="total_head d-lg-flex">
+                        <h4>Extra Storage   Cost </h4>
+                        <p>$<span id="storage_price">0</span></p>
+                    </div>
+                    <span class="border_coler">
+                        <div class="total_head d-lg-flex">
+                            <h4>Delivery Charge</h4>
+                            <p>$<span id="delivery_price">0</span></p>
+                        </div>
+                    </span>                    
+                    <div class="total_head d-lg-flex">
+                        <h4>Total Price </h4>
+                        <p>$<span id="total_price">1299</span></p>
+                    </div>            
+                  </div>  
+                 <!--Bonus  Part-->
+                 <p class="paragrap">Add Pomo Code</p>
+                 <input id="pomo_code" type="text"><button id="apply_button" class="button_click mb-5">Apply</button>                 
+                 </div>
+                </div>
+        </section>
+<!--------------------------------------
+            Mac Footer Part Start
+-------------------------------------->
+        <footer>
+            <h1 class="text-center  m-3">Total: $
+                <span class="buttom_text" id="total_amount">1299</span></h1>
+        </footer>
+<!--------------------------------------
+            Mac Footer Part  End
+-------------------------------------->
+
+<!--------------------------------------
+            Mac Section End
+-------------------------------------->
+</main>
+<!----------------------------------------------------------
+            Main Section End
+----------------------------------------------------------->
+
+<!--------------------------------------
+        Bootstrap JavaScript link
+-------------------------------------->    
+    <script src="js/bootstrap.min.js"></script>
+<!--------------------------------------
+        External JavaScript link
+-------------------------------------->   
+    <script src="js/script.js"></script>
+</body>
+</html>
